@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+dist-ssr/
+build/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# logs / cache
+*.log
+npm-debug.log*
+.DS_Store
+*.local
+
+# editor
+.vscode/
+.idea/
+
+# archives
+*.zip
