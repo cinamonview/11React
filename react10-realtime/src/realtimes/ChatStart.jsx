@@ -19,7 +19,7 @@ const ChatStart = () => {
         객체로 생성되므로 아래와 같이 사용해야 한다.
         */
         window.open(
-            `/chat/talk?roomId=${refRoom.current.value}&userId=${refId.current.value}`,
+            `./#/chat/talk?roomId=${refRoom.current.value}&userId=${refId.current.value}`,
             '',
             'width=400,height=500'
         );
